@@ -1,7 +1,9 @@
+import css from "./Footer.module.css";
+
 export const Footer = () => {
   return (
-    <div>
-      <p>empty block footer</p>
+    <div className={css.footer}>
+      <p>Footer</p>
     </div>
   );
 };

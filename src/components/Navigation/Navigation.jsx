@@ -7,19 +7,21 @@ export const Navigation = () => {
       <nav className={css.navi}>
         <ul className={css.naviList}>
           <li>
-            <Link>Головна</Link>
+            <Link to="/Amigurumi-mir/">Головна</Link>
           </li>
           <li>
-            <Link>Каталог</Link>
+            <Link to="/Amigurumi-mir/catalog">Каталог</Link>
           </li>
           <li>
-            <Link>Про Нас</Link>
+            <Link to="/Amigurumi-mir/about-us">Про Нас</Link>
           </li>
           <li>
-            <Link>Оплата та доставка</Link>
+            <Link to="/Amigurumi-mir/payment-and-delivery">
+              Оплата та доставка
+            </Link>
           </li>
           <li>
-            <Link>Контакти</Link>
+            <Link to="/Amigurumi-mir/contacts">Контакти</Link>
           </li>
         </ul>
       </nav>

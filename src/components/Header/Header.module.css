@@ -1,5 +1,9 @@
 .header {
   padding: 8px 16px;
-  height: 40px;
   background-color: var(--second-color);
+}
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

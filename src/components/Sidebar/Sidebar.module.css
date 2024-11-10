@@ -1,0 +1,14 @@
+.sidebar {
+  background-color: var(--gray);
+  color: var(--second-color);
+  width: 240px;
+}
+.categoryList {
+  /* display: flex;
+  flex-direction: column;
+  gap: 12px; */
+}
+.categoryItem {
+  border: 1px solid var(--light-gray);
+  padding: 8px;
+}

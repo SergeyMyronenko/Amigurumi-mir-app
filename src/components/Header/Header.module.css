@@ -1,5 +1,44 @@
 .header {
-  padding: 8px 16px;
-  height: 40px;
+  /* padding: 8px 16px; */
+}
+.headerIcon {
+  height: 32px;
+  padding: 4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  background-color: #4287f5;
+}
+.headerIconLink {
+  height: 20px;
+}
+.headerIconImage {
+  border-radius: 4px;
+}
+.navi {
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--second-color);
+}
+.naviLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logoLink {
+  font-size: 20px;
+}
+.logoLink:link,
+.logoLink:visited {
+  color: var(--gray);
+}
+.desc {
+  font-size: 12px;
+}
+.text {
+  padding: 0 16px;
+  background-color: #0571f5;
 }

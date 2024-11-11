@@ -1,7 +1,8 @@
 .sidebar {
-  background-color: var(--gray);
+  background-color: var(--light-gray);
   color: var(--second-color);
   width: 240px;
+  height: 1200px;
 }
 .categoryList {
   /* display: flex;
@@ -9,6 +10,6 @@
   gap: 12px; */
 }
 .categoryItem {
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--gray);
   padding: 8px;
 }

@@ -3,8 +3,11 @@ import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import css from "./EmptyOutlet.module.css";
 import { Sidebar } from "../Sidebar/Sidebar";
+// import { useState } from "react";
 
 const EmptyOutlet = () => {
+  // const [titleName, setTitleName] = useState();
+
   return (
     <div className={css.container}>
       <Header />

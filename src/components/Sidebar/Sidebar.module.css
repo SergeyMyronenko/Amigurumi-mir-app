@@ -1,15 +1,40 @@
 .sidebar {
-  background-color: var(--light-gray);
+  background-color: var(--gray);
   color: var(--second-color);
   width: 240px;
-  height: 1200px;
+  /* height: 1200px; */
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.title {
+  background-color: var(--gray);
+  padding: 12px 8px;
 }
 .categoryList {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  gap: 12px; */
 }
 .categoryItem {
-  border: 1px solid var(--gray);
-  padding: 8px;
+  /* border: 1px solid var(--gray); */
+  padding: 12px 8px;
+  background-color: var(--light-gray);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray);
+  color: var(--white);
+}
+
+.categoryItem:hover,
+.categoryItem:focus {
+  background-color: rgb(0, 0, 0, 0.1);
+  scale: 1.05;
+  color: var(--second-color);
+}
+.icon {
+  fill: var(--white);
+}
+.icon:hover {
+  fill: var(--second-color);
 }

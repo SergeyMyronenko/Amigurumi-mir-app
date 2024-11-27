@@ -1,4 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
+import categoryReducer from "../redux/categories/slise.js";
 import {
   persistStore,
   persistReducer,
@@ -19,7 +20,7 @@ import {
 // const persistedUserReducer = persistReducer(userPersistConfig, userReducer);
 
 export const store = configureStore({
-  reducer: {},
+  reducer: { categories: categoryReducer },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: {

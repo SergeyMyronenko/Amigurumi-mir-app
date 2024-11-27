@@ -8,8 +8,16 @@ import { ViewProduct } from "./components/ViewProduct/ViewProduct";
 import { InfoPage } from "./pages/InfoPage/InfoPage";
 import { PaymentPage } from "./pages/PaymentPage/PaymentPage";
 import { ContactsPage } from "./pages/ContactsPage/ContactsPage";
+import { useDispatch } from "react-redux";
+import { fetchCategories } from "./redux/categories/operation";
+import { useEffect } from "react";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchCategories());
+  }, [dispatch]);
   return (
     <>
       <Routes>

@@ -6,4 +6,5 @@
   background-color: var(--gray);
   color: var(--white);
   font-size: 40px;
+  border-radius: 12px;
 }
